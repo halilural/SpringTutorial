@@ -1,4 +1,4 @@
-package com.example.springexamples.storage;
+package com.example.springexamples.properties;
 
 /**
  * @author VKT-HALILU

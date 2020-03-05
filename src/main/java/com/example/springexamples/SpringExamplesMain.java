@@ -5,8 +5,8 @@ package com.example.springexamples;
  * @date 3/5/2020
  */
 
-import com.example.springexamples.storage.StorageProperties;
-import com.example.springexamples.storage.StorageService;
+import com.example.springexamples.properties.StorageProperties;
+import com.example.springexamples.service.StorageService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

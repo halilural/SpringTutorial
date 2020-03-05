@@ -1,4 +1,4 @@
-package com.example.springexamples.storage;
+package com.example.springexamples.exception;
 
 /**
  * @author VKT-HALILU

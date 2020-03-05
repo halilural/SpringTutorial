@@ -1,4 +1,4 @@
-package com.example.springexamples;
+package com.example.springexamples.model;
 
 /**
  * @author VKT-HALILU

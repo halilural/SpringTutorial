@@ -1,4 +1,7 @@
-package com.example.springexamples.storage;
+package com.example.springexamples.service;
+import com.example.springexamples.exception.StorageException;
+import com.example.springexamples.exception.StorageFileNotFoundException;
+import com.example.springexamples.properties.StorageProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

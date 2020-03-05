@@ -1,4 +1,4 @@
-package com.example.springexamples;
+package com.example.springexamples.controller;
 
 /**
  * @author VKT-HALILU
@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import com.example.springexamples.storage.StorageFileNotFoundException;
-import com.example.springexamples.storage.StorageService;
+import com.example.springexamples.exception.StorageFileNotFoundException;
+import com.example.springexamples.service.StorageService;
 
 @Controller
 public class FileUploadController {
