@@ -1,3 +1,4 @@
+/*
 package com.example.springexamples.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -11,16 +12,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
+        super.configure(http);
+       */
+/* http
                 .authorizeRequests()
                 .anyRequest().fullyAuthenticated()
                 .and()
-                .formLogin();
+                .formLogin();*//*
+
     }
 
     @Override
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth
+        super.configure(auth);
+      */
+/*  auth
                 .ldapAuthentication()
                 .userDnPatterns("uid={0},ou=people")
                 .groupSearchBase("ou=groups")
@@ -29,7 +35,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .passwordCompare()
                 .passwordEncoder(new BCryptPasswordEncoder())
-                .passwordAttribute("userPassword");
+                .passwordAttribute("userPassword");*//*
+
     }
 
-}
+}*/
