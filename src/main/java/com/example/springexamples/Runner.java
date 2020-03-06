@@ -26,7 +26,7 @@ public class Runner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("Sending message...");
+        System.out.println("Sending message through Rabbit MQ...");
         rabbitTemplate.convertAndSend(SpringExamplesMain.topicExchangeName, "foo.bar.baz", "Hello from RabbitMQ!");
         receiverRabbitMq.getLatch().await(10000, TimeUnit.MILLISECONDS);
     }
