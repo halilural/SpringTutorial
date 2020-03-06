@@ -91,7 +91,7 @@ public class SpringExamplesMain {
 
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(SpringExamplesMain.class, args).close();
+        SpringApplication.run(SpringExamplesMain.class, args);
     }
 
     @Bean
